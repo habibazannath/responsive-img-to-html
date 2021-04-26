@@ -1,0 +1,222 @@
+/****************start header section***********************/
+.header{
+	width: 100%;
+	min-height: 90px;
+	display: block;
+	background-color: #434343;
+
+}
+.logo h1{
+	margin-top: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+.menu{
+	display: block;
+	overflow: hidden;
+}
+.menu ul{
+	display: block;
+	overflow: hidden;
+}
+.menu ul li{
+	float: left;
+    list-style: none;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.menu ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 33px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+
+/****************end header section***********************/
+/****************start banner section***********************/
+.banner{
+	background-image: url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 450px;
+	display: block;
+	overflow: hidden;
+}
+
+/****************end banner section***********************/
+.house{
+	margin-top: 80px;
+	margin-bottom: 200px;
+}
+/****************start blog section***********************/
+.blog-top{
+	margin-bottom: 50px;
+}
+.blog-top h2{
+	font-size: 35px;
+	color: #43474A;
+}
+.blog-top p{
+	color: #B9BABC;
+	font-size: 27px;
+}
+.blog-img{
+	display: block;
+	overflow: hidden;
+}
+.blog-img img{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+.b-1{
+	margin-right: 5%;
+}
+.b-2{}
+/****************blog-middle*******************/
+.blog-middle{}
+.blog-middle p{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 40px;
+	color: #87A4F0;
+}
+
+/****************blog-bottom*******************/
+
+.b-text{
+	margin-top: 25px;
+}
+.mini{
+	min-height: 366px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+/****************end blog section***********************/
+/********************start forom section*******************/
+.undo{
+	text-align: center;
+	border: 4px solid #0B5ED7;
+}
+.form-1{
+	margin-bottom: 200px;
+}
+.redo{
+	margin-left: 4%;
+}
+.redo-1{
+	margin-right: 5%;
+}
+.undo input{
+	border-radius: 10px;
+}
+.massage{
+	min-height: 80px;
+}
+.custom-btn{
+	min-width: 175px;
+	border-radius: 10px;
+}
+.undo h1{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.form-1 button{
+	margin-bottom: 50px;
+}
+/*************end forom section******************/
+/**************start video and map section********************/
+.video{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.youtube{
+	width: 100%;
+	min-height: 450px;
+}
+.map{
+	width: 100%;
+	min-height: 450px;
+}
+/**************start footer section********************/
+.footer{
+	margin-top: 200px;
+	min-height: 400px;
+	background: #434343;
+
+}
+.f-item-left{
+	margin-top: 80px;
+}
+.f-item-left p{
+	color: white;
+	font-size: 20px;
+}
+.f-item-right{
+	margin-top: 80px;
+}
+.f-item-right p{
+	color: white;
+	font-size: 20px;
+}
+.f-bottom p{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.f-top{
+	text-align: center;
+}
+.f-bottom{
+	text-align: center;
+}
+
+.socialmedia{
+	margin-top: 50px;
+}
+.socialmedia ul{
+	display: inline-block;
+	overflow: hidden;
+}
+.socialmedia ul li{
+	list-style: none;
+	float: left; 
+	margin-right: 10px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: #F8FCFF;
+    border-radius: 35px;
+    transition: .4s;
+    text-align: center;
+}
+.socialmedia ul li:hover{
+	background-color: #BD243C;
+	transition: .4s;
+}
+}
+.socialmedia ul li{
+	color: #4C5B62;
+	padding: 5px 0;
+}
+.socialmedia ul li a{
+	text-decoration: none;
+	color: #4C5B62;
+	padding: 0px 13px;
+}
+.socialmedia ul li a:hover{
+	color: #4C5B62;
+	transition: .4s;
+}
+
+/**************end footer section********************/

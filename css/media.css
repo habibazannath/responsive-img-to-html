@@ -1,0 +1,140 @@
+/***------------**Extra small device(portrait phones, less than 576px)**---****/
+
+@media (max-width: 575.98px){
+	.logo h1 {
+		text-align: center;
+	}
+	.banner {
+		min-height: 300px;
+	}
+	.blog-top h2 {
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+}
+.blog-top p {
+    font-size: 24px;
+}
+
+.house {
+    margin-bottom: 150px;
+}
+.b-1 {
+    margin-bottom: 50px;
+}
+.house h1{
+	text-align: center;
+}
+.blog-middle p{
+	font-size: 20px;
+}
+.f-item-right {
+    margin-top: 30px;
+}
+.f-item-left {
+    margin-top: 50px;
+}
+.socialmedia {
+    margin-top: 0px;
+}
+	
+}
+
+/***---------------------------**Small device(landscape phones, 576px and up)****------------**/
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+	
+
+}
+
+/***----------------------------**Medium device(Tablets, 768px and up)****------------**/
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+	.header {
+    min-height: 75px;
+}
+
+.logo h1 {
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+	.menu ul li {
+    padding: 4px;
+    margin-left: 20px;
+}
+.menu ul li a {
+    font-size: 20px;
+}
+.banner {
+		min-height: 300px;
+	}
+
+
+.blog-top h2 {
+    font-size: 20px;
+}
+.blog-top p {
+    font-size: 17px;
+}
+
+.house {
+    margin-bottom: 150px;
+}
+.mini {
+    min-height: 225px;
+}
+.blog-middle p{
+	font-size: 25px;
+}
+
+}
+
+/***----------------------------**Large device(Large Leptop and dekstop, 992px and up)****------------**/
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+	.menu ul li {
+    margin-left: 13px;
+}
+
+.blog-top h2 {
+    font-size: 27px;
+}
+.blog-top p {
+    font-size: 24px;
+}
+
+.mini {
+    min-height: 304px;
+}
+.blog-middle p{
+	font-size: 34px;
+}
+
+
+}
+
+/***----------------------------**Extra Large device(Extra large Leptop and dekstop, 1200px and up)****------------**/
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+	
+
+}
+
+/***--------------------**Extra extra Large device(Extra extra large Leptop and dekstop, 1400px and up)****--------**/
+
+@media (min-width: 1400px){
+
+	.banner {
+		min-height: 625px;
+	}
+	.mini {
+    min-height: 422px;
+}
+
+}
